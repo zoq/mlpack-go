@@ -1,8 +1,8 @@
 package mlpack
 
 /*
-#cgo CFLAGS: -I. -I/capi -g -Wall
-#cgo LDFLAGS: -L${SRCDIR} -Wl,-rpath,${SRCDIR} -lgo_util
+#cgo CFLAGS: -I/srv/conda/envs/notebook/include/ -I. -I/capi -g -Wall
+#cgo LDFLAGS: -L${SRCDIR} -Wl,-rpath,${SRCDIR} /srv/conda/envs/notebook/lib/libgo_util.so
 #include <capi/cli_util.h>
 */
 import "C"

@@ -1,8 +1,8 @@
 package mlpack
 
 /*
-#cgo CFLAGS: -I./capi -Wall
-#cgo LDFLAGS: -L. -lmlpack_go_nbc
+#cgo CFLAGS: -I/srv/conda/envs/notebook/include/ -I./capi -Wall
+#cgo LDFLAGS: -L. /srv/conda/envs/notebook/lib/libmlpack_go_nbc.so
 #include <capi/nbc.h>
 #include <stdlib.h>
 */

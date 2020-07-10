@@ -1,8 +1,8 @@
 package mlpack
 
 /*
-#cgo CFLAGS: -I. -I/capi -g -Wall -Wno-unused-variable 
-#cgo LDFLAGS: -L. -lgo_util
+#cgo CFLAGS: -I/srv/conda/envs/notebook/include/ -I. -I/capi -g -Wall -Wno-unused-variable 
+#cgo LDFLAGS: -L. /srv/conda/envs/notebook/lib/libgo_util.so
 #include <stdlib.h>
 #include <stdio.h>
 #include <capi/cli_util.h>
